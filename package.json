@@ -1,5 +1,5 @@
 {
-  "name": "relay-example-todo",
+  "name": "relay-example-guestbook",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,21 +7,26 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "relay": "relay-compiler"
   },
   "dependencies": {
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-relay": "^17.0.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.8.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
+    "babel-plugin-relay": "^17.0.0",
     "eslint": "^9.8.0",
     "eslint-plugin-react-hooks": "^5.1.0-rc.0",
     "eslint-plugin-react-refresh": "^0.4.9",
     "globals": "^15.9.0",
+    "graphql": "^16.9.0",
+    "relay-compiler": "^17.0.0",
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.0.0",
     "vite": "^5.4.0"
