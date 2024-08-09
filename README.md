@@ -4,3 +4,10 @@
 # 구현 기능
 - [ ] 회원관리
 - [ ] 투두리스트
+
+# 📚 사용 기술
+- React
+- Graphql
+- TypeScript
+- Relay
+- Tanstack Router
